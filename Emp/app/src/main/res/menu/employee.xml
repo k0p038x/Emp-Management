@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <item
+     android:id="@+id/ch_pword"
+     android:title="Change Password"
+     android:icon="@drawable/keyw"
+     app:showAsAction="always"
+     />
+
+ <item
+     android:id="@+id/log_out"
+     android:icon="@drawable/gow"
+     android:title="Log Out"
+     app:showAsAction="always" />
+
+
+
+</menu>

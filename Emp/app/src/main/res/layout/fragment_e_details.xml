@@ -1,0 +1,165 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.krish.emp.eDetailsFragment"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charan"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/name_tv"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:paddingTop="4dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/id_tv"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DSS Analyst"
+        android:textSize="18dp"
+        android:id="@+id/jobClass_tv"
+        android:gravity="center"
+        android:padding="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#D7F5FF">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/num_proj"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/num_proj"
+                    android:text="Projects"
+                    android:textSize="16dp"
+                    android:gravity="center_horizontal"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="24"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/num_hrs"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/num_hrs"
+                    android:gravity="center_horizontal"
+                    android:textSize="16dp"
+                    android:text="Hours Spent"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"/>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12.5"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/num_rate"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/num_rate"
+                        android:text="Hourly Rate"
+                        android:textSize="16dp"
+                        android:gravity="center_horizontal"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$ 2400"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/num_income"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/num_income"
+                        android:gravity="center_horizontal"
+                        android:textSize="16dp"
+                        android:text="Income earned"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emp_id"
+        android:textSize="20sp"
+        android:text="e101"
+         android:textStyle="bold"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/project_hrs"
+        android:layout_below="@id/emp_id"
+        android:textColor="@color/colorAccent"
+        android:text="Hours Spent : 10"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/income_tv"
+        android:text="Income earned : $100"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/project_hrs"
+        android:textSize="16sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/add_img"
+        android:layout_alignRight="@id/project_hrs"
+        android:src="@drawable/add"
+
+        android:padding="8dp"/>
+
+
+</RelativeLayout>
