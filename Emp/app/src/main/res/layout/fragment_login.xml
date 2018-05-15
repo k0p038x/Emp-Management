@@ -6,50 +6,50 @@
     tools:context="com.example.krish.emp.loginFragment"
     android:padding="16dp">
 
- <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:id="@+id/layout_linear"
-     android:orientation="horizontal">
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Username"
-            android:id="@+id/uname_text"
-            android:textColor="#000000"/>
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="                        "
-            android:layout_marginBottom="16dp"
-            android:id="@+id/edit_un" />
-    </LinearLayout>
      <LinearLayout
-         android:layout_width="0dp"
-         android:layout_weight="1"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:orientation="vertical"
-         >
-        <TextView
-            android:layout_width="wrap_content"
+         android:id="@+id/layout_linear"
+         android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Password"
-            android:id="@+id/pword_text"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/uname_text"
+                android:textColor="#000000"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                        "
+                android:layout_marginBottom="16dp"
+                android:id="@+id/edit_un" />
+        </LinearLayout>
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:id="@+id/pword_text"
 
-            android:textColor="#000000"/>
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="                        "
-            android:id="@+id/edit_pw"
-            android:inputType="textPassword"/>
-     </LinearLayout>
-    </LinearLayout>
+                android:textColor="#000000"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                        "
+                android:id="@+id/edit_pw"
+                android:inputType="textPassword"/>
+         </LinearLayout>
+        </LinearLayout>
 
     <Button
 

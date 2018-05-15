@@ -91,7 +91,7 @@ public class EmployeeDetailsActivity extends AppCompatActivity {
         final View mView = getLayoutInflater().inflate(R.layout.change_password,null);
         mBuilder.setView(mView);
         mBuilder.setTitle("Change Password");
-        mBuilder.setPositiveButton("Proceed", new DialogInterface.OnClickListener() {
+        mBuilder.setPositiveButton("Proceed",new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 final EditText et_1 = (EditText) mView.findViewById(R.id.old_pass);

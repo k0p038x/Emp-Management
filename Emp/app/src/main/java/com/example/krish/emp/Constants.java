@@ -6,7 +6,7 @@ package com.example.krish.emp;
 
 public class Constants {
 
-    public static final String ROOT_URL="http://abbe8b68.ngrok.io/phpmyadmin/EmpApi/v1/";
+    public static final String ROOT_URL="http://50d0901e.ngrok.io/phpmyadmin/EmpApi/v1/";
     public static final String REGISTER_URL=ROOT_URL+"registerUser.php";
     public static final String LOGIN_URL=ROOT_URL+"eLogin.php";
     public static final String eDetails_PROJ=ROOT_URL+"eDetailsProj.php";
