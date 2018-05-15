@@ -11,7 +11,7 @@ Employee Management System Android App for DBMS Project
 
 # Features
 
-1. It contain login for both Admin and Employee.
+1. It contains login for both Admin and Employee.
 2. A group of Employee has worked on different Projects.
 3. For every employee, it tracks the income earned through different Projects
 4. Admin can add new Employee, Job Class and Project
