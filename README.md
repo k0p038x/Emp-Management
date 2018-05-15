@@ -6,8 +6,8 @@ Employee Management System Android App for DBMS Project
 
 # Languages 
 
- DataBase - SQL
- Server Scripting - PHP
+1. DataBase - SQL
+2. Server Scripting - PHP
 
 
 
